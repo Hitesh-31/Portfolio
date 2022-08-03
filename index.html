@@ -1,64 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>Webpage Design</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Web</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utlits.css">
+
 </head>
+
 <body>
-
-    <div class="main">
-        <div class="navbar">
-            <div class="icon">
-                <h2 class="logo">PraRoz</h2>
-            </div>
-
-            <div class="menu">
-                <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">SERVICE</a></li>
-                    <li><a href="#">DESIGN</a></li>
-                    <li><a href="#">CONTACT</a></li>
-                </ul>
-            </div>
-
-            <div class="search">
-                <input class="srch" type="search" name="" placeholder="Type To text">
-                <a href="#"> <button class="btn">Search</button></a>
-            </div>
-
-        </div> 
-        <div class="content">
-            <h1>Web Design & <br><span>Development</span> <br>Course</h1>
-            <p class="par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt neque 
-                 expedita atque eveniet <br> quis nesciunt. Quos nulla vero consequuntur, fugit nemo ad delectus 
-                <br> a quae totam ipsa illum minus laudantium?</p>
-
-                <button class="cn"><a href="#">JOIN US</a></button>
-
-                <div class="form">
-                    <h2>Login Here</h2>
-                    <input type="email" name="email" placeholder="Enter Email Here">
-                    <input type="password" name="" placeholder="Enter Password Here">
-                    <button class="btnn"><a href="#">Login</a></button>
-
-                    <p class="link">Don't have an account<br>
-                    <a href="#">Sign up </a> here</a></p>
-                    <p class="liw">Log in with</p>
-
-                    <div class="icons">
-                        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
-                        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
-                        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
-                        <a href="#"><ion-icon name="logo-google"></ion-icon></a>
-                        <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
-                    </div>
-
+    <header>
+        <div class="head-section layout">
+            <div class="nav-bar flex space-between align-center">
+                <div class="logo uppercase f-w-700 letter-spacing2"><span>
+                        <h1>Hitesh</h1>
+                    </span>
+                    <h1> Motwani</h1>
                 </div>
-                    </div>
+                <div class="nav-links">
+                    <nav id="navbar">
+                        <ul class="flex f-w-600">
+                            <li><a href="index.html" alt="home-page">Home</a></li>
+
+                            <li><a href="About.html" alt="about-page">About</a></li>
+
+                            <li><a href="projects.html" alt="projects-page">Projects</a></li>
+
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
                 </div>
+                <button class="btn">Hire me </button>
+            </div>
+            <div class="content flex align-center">
+                <!--left content -->
+                <div class="left flex2">
+                    <h4 class="uppercase letter-spacing2">HI ,I am <span>Hitesh</span></h4>
+                    <h2 class="my-t-10 uppercase"> Backend Devloper</h2>
+                    <p class="my-t-0">I love exploring and creating 🚀 I'm a lifelong learner 🎓 </p>
+                    <button class="btn btn2 my-t-20">Download CV</button>
+                </div>
+
+                <!--right content -->
+                <div class="right flex3">
+                    <img src="asset/img1.png" alt=" img png">
+                    <div class="color-box"></div>
+                </div>
+            </div>
         </div>
-    </div>
-    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    </header>
+
+    <!--About secstion start-->
+
+    <section class="about-me-sec">
+        <div class="about-sec layout">
+            <h3 class="uppercase pd-t-30 text-center">About Me</h3>
+            <hr class="w55 my-t-10">
+
+            <div class="about-content flex justify-center align-center">
+                <!--left-side-->
+                <div class="left flex2">
+                    <h2> Backend Devloper</h2><br>
+                    <p>I am a backend Web devloper . I have done many backend projects
+                        on server site and I also make a netflix clone and a frontend design a application course and I
+                        also do a freelancing
+                    </p>
+                    <br>
+                    <ul>
+                        <li><span>HTML/CSS/JavaScript/Node js/API</span></li>
+                    </ul><br>
+
+                    <button class="btn">Hire Me</button>
+
+                </div>
+                <!--right-side-->
+                <div class="right flex3">
+                    <img src="asset/img.png" alt=" img png">
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!--About secstion end-->
+
 </body>
+
 </html>
