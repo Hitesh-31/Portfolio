@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing; border-box;
+    box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -113,15 +113,8 @@ h4, p{
     font-family: 'pippins' ,sans-serif;
 }
 
-.color-box{
-    width: 560px;
-    height:480px ;
-    border: 5px solid red;
-    transform: rotate(48deg) ;
-    position: absolute;
-    top: 120px;
-    right: 10px;
-}
+
+    
 
 /* about section*/
 .about-me-sec{
@@ -133,4 +126,20 @@ h4, p{
 about-me-sec hr{
    border: 2px solid red;
    margin-bottom: 2rem;
+}
+
+/* Contact */
+.contact{
+    padding-left: 25pc;
+    padding-top: 15pc;
+    background-color: pink;
+}
+#Contact{
+    padding-left: 25pc;
+    padding-top: 20pc;
+    background-color: aqua;
+}
+#head{
+    padding-left: 8pc;
+    text-underline-offset: dotted;
 }
